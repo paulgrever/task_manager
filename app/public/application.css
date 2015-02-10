@@ -1,0 +1,83 @@
+body {
+  background-image: url("http://www.pulsarwallpapers.com/data/media/3/Alien%20Ink%202560X1600%20Abstract%20Background.jpg");
+}
+h1{
+  color: white;
+  padding-bottom: 10px
+}
+.container{
+  text-align: center;
+
+  
+}
+
+.container li a, .container ol li a, #form_header {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+h3{
+  border: 8px solid #ae4a7f;
+  background-color: #ae4a7f;
+  color: white;
+  padding: 20px;
+  text-decoration: none
+}
+
+li {
+  display:inline;
+  border: 8px solid #ae4a7f;
+  background-color: #ae4a7f;
+  color: white;
+  padding: 20px;
+}
+li:hover{
+  display:inline;
+  border: 8px solid #451d32;
+  background-color: #451d32;
+  color: white;
+  padding: 20px;
+
+}
+
+ul, ol{
+  list-style-type: none;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline;
+}
+
+footer p {
+  display:inline;
+  border: 8px solid #ae4a7f;
+  background-color: #ae4a7f;
+  color: white;
+  padding: 5px;
+}
+
+#task_master{
+  position: relative;
+  padding: 20px;
+
+  width: 30%;
+}
+
+#task_title{
+  font-family: ‘Lucida Console’, Monaco, monospace; 
+}
+#task_title:after{
+  content: "Task To Be Completed:";
+  color: white; 
+  font-size: 150%;
+}
+#task_description{
+  font-size: 20px;
+  border: 3px solid black;
+  text-align: left;
+  padding: 5px 20px 5px 20px;
+
+}
+
